@@ -1,13 +1,31 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.jumbotron {
+  text-align: center;
+  background-color: #335441;
+  color: white;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+button {
+  width: 100px;
+}
+
+.dropdown,
+form.form-inline {
+  margin-right: 5px;
+}
+
+.dropdown,
+form.form-inline {
+  display: inline-block;
+}
+
+form.form-inline {
+  vertical-align: bottom;
+}
+
+.container {
+  margin-bottom: 32px;
+}
+
+.col-sm {
+  text-align: center;
 }
